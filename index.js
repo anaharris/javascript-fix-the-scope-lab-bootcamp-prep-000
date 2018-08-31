@@ -18,7 +18,7 @@ function add2(n) {
   // Feel free to move things around!
 }
 
-var funkyFunction = 10
+var funkyFunction = function () { return 10 }
 /*
 function() {
   return function() {
