@@ -18,15 +18,14 @@ function add2(n) {
   // Feel free to move things around!
 }
 
-var funkyFunction = function () { return function () { return 10 } }
-/*
-function() {
+var funkyFunction = function() {
   return function() {
     return "FUNKY!"
   }
 }
-*/
+
+// function () { return function () { return 10 } }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction()
+var theFunk = funkyFunction()()
